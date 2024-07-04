@@ -11,8 +11,8 @@ const page = () => {
 
                 <p className='text-white'>My journey begins with the user interface, the visual tapestry of a website. Here, I leverage the power of HTML, the cornerstone of web development.  Think of HTML as the skeleton, providing structure and organization to the content. Each element, from paragraphs to images, is meticulously coded, ensuring a clear and logical layout. <br /><br />
 
-                    But a website doesn't come alive with just structure. This is where CSS, the magician's cloak, takes center stage.  With CSS, I wield a palette of colors, fonts, and layouts, painting the website with visual appeal.  I meticulously craft the look and feel, considering everything from button styles to hover effects, ensuring a cohesive and visually stunning experience.</p>
-                <p className='text-white'>Being a front-end developer is more than just a job; it's a passion. It's the satisfaction of seeing a website come to life, pixel by pixel, line by line. It's the challenge of pushing the boundaries of what's possible within the browser. But most importantly, it's the joy of creating user experiences that are intuitive, beautiful, and engaging.</p>
+                    But a website does not come alive with just structure. This is where CSS, the magician's cloak, takes center stage.  With CSS, I wield a palette of colors, fonts, and layouts, painting the website with visual appeal.  I meticulously craft the look and feel, considering everything from button styles to hover effects, ensuring a cohesive and visually stunning experience.</p>
+                <p className='text-white'>Being a front-end developer is more than just a job; it is a passion. It is the satisfaction of seeing a website come to life, pixel by pixel, line by line. It's the challenge of pushing the boundaries of what's possible within the browser. But most importantly, it's the joy of creating user experiences that are intuitive, beautiful, and engaging.</p>
             </div>
             <div className='space-x-4 mt-6'>
 
