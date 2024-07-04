@@ -91,7 +91,7 @@ const Projects = () => {
             <div className=' grid grid-cols-1 lg:grid-cols-2 gap-10 p-8 animate__animated animate__pulse'>
                 {
                     allprojects.map(item =>
-                        <div key={item.title} className="flex flex-col border-2 border-white max-w-lg p-6 space-y-6 overflow-hidden rounded-lg shadow-md ">
+                        <div key={item.title} className="flex flex-col  shadow-2xl shadow-white border-2 border-white max-w-lg p-6 space-y-6 overflow-hidden rounded-lg  ">
                             <div>
                                 <Link href={item.liveLink}> <Image alt="photo" src={item.photo} width={480} height={300} className="rounded-2xl  mb-4  dark:bg-gray-500" /></Link>
                                 <h2 className="mb-1 text-xl text-white font-semibold p-3">{item.title}</h2>
