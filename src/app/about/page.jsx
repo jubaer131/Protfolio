@@ -20,7 +20,7 @@ const page = () => {
 
                     <button type="button" className="px-8 py-3 font-semibold border rounded dark:border-gray-800 dark:text-gray-800">Projects</button>
                 </Link>
-                <Link href="https://drive.google.com/uc?export=download&id=1IQqTye4xHi0YlN7aMC0B04NHgWzXfSY3">
+                <Link href="https://drive.google.com/uc?export=download&id=1UnZFN81UqaIiVJZkhFf_-fitTAqjL-6z">
 
                     <button type="button" className="px-8 py-3 font-semibold rounded bg-teal-500 text-black" download="MyResume.pdf"> Resume</button>
                 </Link>
