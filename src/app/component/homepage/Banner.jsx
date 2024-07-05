@@ -21,7 +21,7 @@ const Banner = () => {
                     <div className="flex flex-col px-8 space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start lg:w-11/12">
 
 
-                        <Link href="https://drive.google.com/uc?export=download&id=1IQqTye4xHi0YlN7aMC0B04NHgWzXfSY3">
+                        <Link href="https://drive.google.com/uc?export=download&id=1UnZFN81UqaIiVJZkhFf_-fitTAqjL-6z">
 
                             <button download="MyResume.pdf" class="mt-5 relative inline-flex items-center justify-center px-6 py-3 text-lg font-medium tracking-tighter text-white bg-gray-800 rounded-md group">
                                 <span class="absolute inset-0 w-full h-full mt-1 ml-1 transition-all duration-300 ease-in-out bg-green-600 rounded-md group-hover:mt-0 group-hover:ml-0"></span>
