@@ -9,7 +9,7 @@ const Projects = () => {
 
     const allprojects = [
         {
-            "photo": "https://i.ibb.co/D53VM4j/Screenshot-1664.png",
+            "photo": "https://i.ibb.co/vdz54J7/Screenshot-1754.png",
             "title": "Medtrail medical camp",
             "technology": [
                 "React",
@@ -22,7 +22,7 @@ const Projects = () => {
                 "Stripe",
                 "JWT Token"
             ],
-            "liveLink": "https://medtrail-assignment-12-131.netlify.app",
+            "liveLink": "https://medicalcamp-131.netlify.app",
             "clientRepo": "https://github.com/jubaer131/medtrail-client-side.git",
             "serverRepo": "https://github.com/jubaer131/medtrail-server-side.git"
         },
