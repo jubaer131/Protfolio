@@ -9,7 +9,7 @@ const Projects = () => {
 
     const allprojects = [
         {
-            "photo": "https://i.ibb.co/vdz54J7/Screenshot-1754.png",
+            "photo": "https://i.ibb.co/2vRF1Gq/Screenshot-1753.png",
             "title": "Medtrail medical camp",
             "technology": [
                 "React",
