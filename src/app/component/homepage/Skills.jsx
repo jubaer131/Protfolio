@@ -72,11 +72,11 @@ const Skills = () => {
 
 
     return (
-        <div id='Skills' className='max-w-7xl mx-auto md:my-20 mt-16 p-5  animate__animated animate__pulse'>
-            <h1 className='text-3xl lg:text-4xl text-white text-center font-bold md:mb-24 mb-16'>Skills & Expertise</h1>
+        <div id='Skills' className='max-w-6xl mx-auto md:my-20 mt-16 p-5  animate__animated animate__pulse'>
+            <h1 className='text-4xl lg:text-4xl text-white text-center font-bold md:mb-24 mb-16'>Skills & Expertise</h1>
             <div className='grid grid-cols-2 lg:grid-cols-5 gap-3 lg:gap-8'>
                 {
-                    technologis.map(item => <button key={item.photo} className='flex items-center justify-center gap-2 lg:gap-5 text-white  btn btn-ghost border-2 border-white'><Image alt="book" src={item.photo} width={30} height={30} className='rounded-full'></Image>  {item.name}</button>)
+                    technologis.map(item => <button key={item.photo} className='flex items-center justify-center gap-2 lg:gap-5 text-white hover:bg-[#3193ee]  hover:text-white btn btn-ghost border-2 border-white'><Image alt="book" src={item.photo} width={30} height={30} className='rounded-full'></Image>  {item.name}</button>)
                 }
             </div>
         </div>
