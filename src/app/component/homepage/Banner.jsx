@@ -24,10 +24,10 @@ const Banner = () => {
                         <Link href="https://drive.google.com/uc?export=download&id=1UnZFN81UqaIiVJZkhFf_-fitTAqjL-6z">
 
                             <button download="MyResume.pdf" class="mt-5 relative inline-flex items-center justify-center px-6 py-3 text-lg font-medium tracking-tighter text-white bg-gray-800 rounded-md group">
-                                <span class="absolute inset-0 w-full h-full mt-1 ml-1 transition-all duration-300 ease-in-out bg-green-600 rounded-md group-hover:mt-0 group-hover:ml-0"></span>
+                                <span class="absolute inset-0 w-full h-full mt-1 ml-1 transition-all duration-300 ease-in-out bg-[#3193ee] rounded-md group-hover:mt-0 group-hover:ml-0"></span>
                                 <span class="absolute inset-0 w-full h-full bg-white rounded-md "></span>
-                                <span class="absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-green-600 rounded-md opacity-0 group-hover:opacity-100 "></span>
-                                <span class="relative text-black font-semibold transition-colors duration-200 ease-in-out delay-100 group-hover:text-white">Resume</span>
+                                <span class="absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-[#3193ee] rounded-md opacity-0 group-hover:opacity-100 "></span>
+                                <span class="relative text-black font-semibold transition-colors duration-200 ease-in-out delay-100 group-hover:text-black">Resume</span>
                             </button>
                         </Link>
 
@@ -35,10 +35,10 @@ const Banner = () => {
                         <Link href="#projects">
 
                             <button class="relative mt-5 inline-flex items-center justify-center px-6 py-3 text-lg font-medium tracking-tighter text-white bg-gray-800 rounded-md group">
-                                <span class="absolute inset-0 w-full h-full mt-1 ml-1 transition-all duration-300 ease-in-out bg-green-600 rounded-md group-hover:mt-0 group-hover:ml-0"></span>
+                                <span class="absolute inset-0 w-full h-full mt-1 ml-1 transition-all duration-300 ease-in-out bg-[#3193ee] rounded-md group-hover:mt-0 group-hover:ml-0"></span>
                                 <span class="absolute inset-0 w-full h-full bg-white rounded-md "></span>
-                                <span class="absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-green-600 rounded-md opacity-0 group-hover:opacity-100 "></span>
-                                <span class="relative text-black font-semibold transition-colors duration-200 ease-in-out delay-100 group-hover:text-white">Projects</span>
+                                <span class="absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-[#3193ee] rounded-md opacity-0 group-hover:opacity-100 "></span>
+                                <span class="relative text-black font-semibold transition-colors duration-200 ease-in-out delay-100 group-hover:text-black">Projects</span>
                             </button>
                         </Link>
 

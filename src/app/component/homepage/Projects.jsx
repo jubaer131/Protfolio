@@ -87,7 +87,7 @@ const Projects = () => {
 
     return (
         <div id='projects' className='max-w-6xl mx-auto '>
-            <h1 className='text-center text-4xl font-bold text-white md:my-24 my-8'>Projects</h1>
+            <h1 className='text-center text-4xl  font-bold text-white md:my-24 my-12'>Projects</h1>
             <div className=' grid grid-cols-1 lg:grid-cols-3 gap-10 max-sm:p-6  animate__animated animate__pulse'>
                 {
                     allprojects.map(item =>
