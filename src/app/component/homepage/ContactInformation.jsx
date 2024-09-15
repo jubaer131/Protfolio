@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const ContactInformation = () => {
     return (
-        <div id='Contact' className='max-w-6xl mx-auto md:mt-36 mt-20'>
+        <div id='Contact' className='max-w-7xl mx-auto md:mt-36 mt-20'>
             <h1 className='text-4xl text-white font-bold text-center md:mb-20 mb-8'>Get In Touch</h1>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-5'>
                 <div className='p-10 space-y-6'>
@@ -34,7 +34,7 @@ const ContactInformation = () => {
                                         className=" w-full px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-600 h-48 border-b-2"></textarea>
                                 </div>
                                 <div>
-                                    <button className='btn w-full bg-white text-black hover:text-white'>Send Message</button>
+                                    <button className='btn w-full bg-white text-black hover:text-white hover:bg-[#3193ee]'>Send Message</button>
                                 </div>
                             </div>
 

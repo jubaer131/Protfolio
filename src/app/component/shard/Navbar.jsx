@@ -36,7 +36,7 @@ const Navbar = () => {
 
 
     return (
-        <div className='max-w-7xl mx-auto my-5 lg:my-7'>
+        <div className='container mx-auto my-5 lg:my-7'>
             <div className="navbar bg-base-100">
                 <div className="navbar-start lg:w-9/12">
                     <div className="dropdown">
@@ -57,9 +57,9 @@ const Navbar = () => {
                         <ul tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-40 p-2 shadow"
                         >
-                            <div className='grid grid-cols-1 gap-1 menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-40 p-2 shadow '>
+                            <div className='grid grid-cols-1 gap-1   menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-40 p-2 shadow '>
                                 {
-                                    navItems.map(item => <Link className='font-semibold hover:text-primary duration-300  text-white' href={item.path} key={item.path}>{item.title}</Link>)
+                                    navItems.map(item => <Link className='font-semibold hover:text-[#3193ee] duration-300  text-white' href={item.path} key={item.path}>{item.title}</Link>)
                                 }
                             </div>
                         </ul>
@@ -68,13 +68,13 @@ const Navbar = () => {
                     <div className='flex items-center justify-center gap-x-5 w-64'>
                         <Image className='rounded-3xl animate__animated animate__rotateIn' alt="logo" src="https://i.ibb.co.com/vcvSWjF/Animation-1726310406356.gif" height={45} width={45}></Image>
 
-                        <h1 className=" text-white text-xl font-bold w-64">Jubaer ahmed</h1>
+                        <h1 className=" text-white text-xl max-sm:text-2xl font-bold w-64">Jubaer ahmed</h1>
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex ">
                     <div className='flex  items-center space-x-6'>
                         {
-                            navItems.map(item => <Link className='font-semibold hover:text-primary duration-300 text-[18px]  text-white' href={item.path} key={item.path}>{item.title}</Link>)
+                            navItems.map(item => <Link className='font-semibold hover:text-[#3193ee] duration-300 text-[18px]  text-white' href={item.path} key={item.path}>{item.title}</Link>)
                         }
                     </div>
                 </div>

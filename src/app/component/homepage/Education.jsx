@@ -4,9 +4,9 @@ import 'animate.css';
 import Image from 'next/image';
 const Education = () => {
     return (
-        <div className='max-w-7xl mx-auto mb-5 p-8'>
+        <div className='max-w-7xl mx-auto mb-5 '>
             <h1 className='md:text-4xl text-4xl text-center font-bold my-12 text-white animate__animated animate__bounce'>Education & Experience</h1>
-            <div className='lg:flex justify-between items-center gap-10 max-sm:space-y-8   lg:p-10'>
+            <div className='lg:flex justify-between items-center gap-10 max-sm:space-y-8 max-sm:p-6  lg:p-10'>
                 <div className='lg:w-1/2 space-y-8 '>
                     <div className=" border-2 rounded-3xl hover:bg-[#3193ee]   border-sky-400  lg:h-64  shadow-2xl shadow-sky-600 animate__animated animate__backInLeft">
                         <div className="space-y-2 p-8 ">

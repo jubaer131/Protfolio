@@ -86,17 +86,17 @@ const Projects = () => {
 
 
     return (
-        <div id='projects' className='max-w-6xl mx-auto '>
+        <div id='projects' className='max-w-7xl mx-auto '>
             <h1 className='text-center text-4xl  font-bold text-white md:my-24 my-12'>Projects</h1>
-            <div className=' grid grid-cols-1 lg:grid-cols-3 gap-10 max-sm:p-6  animate__animated animate__pulse'>
+            <div className=' grid grid-cols-1 lg:grid-cols-3 gap-12 max-sm:p-6  animate__animated animate__pulse'>
                 {
                     allprojects.map(item =>
-                        <div key={item.title} className="flex flex-col  shadow-2xl shadow-white border-2 border-white max-w-lg p-4 space-y-6 overflow-hidden  ">
+                        <div key={item.title} className="flex flex-col   shadow-2xl shadow-white border border-white max-w-lg p-8 space-y-6 overflow-hidden  ">
                             <div className='lg:h-[400px]'>
                                 <Link href={item.liveLink}> <Image alt="photo" src={item.photo} width={480} height={300} className="  mb-4  dark:bg-gray-500" /></Link>
                                 <h2 className="mb-1 text-xl text-white font-semibold p-3">{item.title}</h2>
                                 <div className="">{
-                                    item.technology.map((tech, index) => <h1 key={index} className='btn flex-1 gap-5 text-white text-[15px]'>{tech}</h1>)
+                                    item.technology.map((tech, index) => <h1 key={index} className='btn flex-1 gap-5 hover:bg-[#3193ee] text-white text-[15px]'>{tech}</h1>)
                                 }</div>
                             </div>
                             <div className="flex flex-wrap justify-between">
@@ -107,7 +107,7 @@ const Projects = () => {
 
                                 </div>
                                 <div className="flex space-x-2 text-sm dark:text-gray-600">
-                                    <button className='btn bg-white text-black hover:text-white'>
+                                    <button className='btn bg-white text-black hover:bg-[#3193ee] hover:text-white'>
                                         Details
                                     </button>
                                 </div>
