@@ -66,15 +66,15 @@ const Navbar = () => {
                     </div>
 
                     <div className='flex items-center justify-center gap-x-5 w-64'>
-                        <Image className='rounded-3xl animate__animated animate__rotateIn' alt="logo" src="https://i.ibb.co/fnx3fSt/boy-cartoon-character-vector-file-918868-815.jpg" height={40} width={40}></Image>
+                        <Image className='rounded-3xl animate__animated animate__rotateIn' alt="logo" src="https://i.ibb.co.com/vcvSWjF/Animation-1726310406356.gif" height={45} width={45}></Image>
 
-                        <h1 className=" text-white text-2xl font-bold w-64">Jubaer ahmed</h1>
+                        <h1 className=" text-white text-xl font-bold w-64">Jubaer ahmed</h1>
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex ">
                     <div className='flex  items-center space-x-6'>
                         {
-                            navItems.map(item => <Link className='font-semibold hover:text-primary duration-300 text-xl  text-white' href={item.path} key={item.path}>{item.title}</Link>)
+                            navItems.map(item => <Link className='font-semibold hover:text-primary duration-300 text-[18px]  text-white' href={item.path} key={item.path}>{item.title}</Link>)
                         }
                     </div>
                 </div>
