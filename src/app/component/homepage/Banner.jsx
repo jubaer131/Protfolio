@@ -24,7 +24,7 @@ const Banner = () => {
                         {/* Hi, I am Jubaer Ahmed */}
                     </h1>
                     <h1 className='text-3xl text-white font-semibold text-start w-10/12 lg:w-11/12 lg:px-8'>
-                        {/* Frontend Web Developer */}
+
 
                     </h1>
                     <h1 className="text-[18px] text-white lg:text-xl font-normal lg:w-11/12 px-8 leading-none sm:text-4xl lg:text-left">
@@ -34,7 +34,7 @@ const Banner = () => {
                     <div className="flex flex-col px-8 space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start lg:w-11/12">
 
 
-                        {/* <Link href="https://drive.google.com/uc?export=download&id=1UnZFN81UqaIiVJZkhFf_-fitTAqjL-6z"> */}
+
                         <Link href="https://drive.google.com/uc?export=download&id=1a6baPLekBMVioJ4ofZ-KPlI6uu8ZK79J
 ">
 
@@ -60,7 +60,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className="flex items-center justify-center lg:pr-10 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
-                    <Image alt="book" src="https://i.ibb.co/fdbYtZD/Untitled-design-6.png" width={640} height={288} className="h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 bg-cover w-full rounded-full" />
+                    <Image alt="book" src="https://i.ibb.co.com/H2p8s0q/Untitled-design-17.png" width={640} height={288} className="h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 bg-cover w-full rounded-full" />
                 </div>
             </div>
         </section>
