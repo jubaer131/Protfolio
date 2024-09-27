@@ -25,11 +25,8 @@ const Banner = () => {
                     <h1 id="typewriter" className='md:text-4xl text-2xl text-[#3193ee] font-bold text-start w-10/12 lg:w-11/12 lg:px-8'>
                         {/* Hi, I am Jubaer Ahmed */}
                     </h1>
-                    <h1 className='text-[18px] text-white font-medium text-start w-10/12 lg:w-11/12 lg:px-8'>
 
-
-                    </h1>
-                    <h1 className='text-xl text-white font-semibold text-start w-10/12 lg:w-11/12 lg:px-8 flex items-center justify-start gap-2'><TiLocation className='text-green-500 text-2xl' /> Form Bangladesh</h1>
+                    <h1 className='text-xl text-white font-semibold text-start w-10/12 lg:w-11/12 lg:px-8 flex items-center justify-start gap-2'><TiLocation className='text-green-500 text-2xl' /> From Bangladesh</h1>
                     <h1 className="text-[18px] text-white lg:text-xl font-normal lg:w-11/12 px-8 leading-none sm:text-4xl lg:text-left">
                         💻 As a passionate and experienced Frontend Web Developer , I thrive on creating beautiful and interactive web applications that delight users. My journey in web development has been driven by a love for design and a commitment to crafting seamless user experiences.
                     </h1>
