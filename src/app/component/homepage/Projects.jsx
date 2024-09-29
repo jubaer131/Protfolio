@@ -99,7 +99,7 @@ const Projects = () => {
                                     item.technology.map((tech, index) => <h1 key={index} className='btn flex-1 gap-5 hover:bg-[#3193ee] text-white text-[15px]'>{tech}</h1>)
                                 }</div>
                             </div>
-                            <div className="flex flex-wrap justify-between">
+                            <div className="flex flex-wrap justify-between max-sm:gap-y-4">
                                 <div className="space-x-2">
                                     <Link href={item.liveLink}><button className='btn'><SiNetlify className='text-2xl text-green-400' /></button></Link>
                                     <Link href={item.clientRepo}><button className='btn'><FaGithub className='text-2xl text-pink-400' /></button></Link>
@@ -107,7 +107,7 @@ const Projects = () => {
 
                                 </div>
                                 <div className="flex space-x-2 text-sm dark:text-gray-600">
-                                    <button className='btn bg-white text-black hover:bg-[#3193ee] hover:text-white'>
+                                    <button className='btn bg-white text-black hover:bg-[#3193ee] hover:text-white max-sm:hidden'>
                                         Details
                                     </button>
                                 </div>

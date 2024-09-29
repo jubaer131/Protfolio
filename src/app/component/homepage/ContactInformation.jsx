@@ -14,7 +14,7 @@ const ContactInformation = () => {
                     <h1 className='text-2xl  text-white  font-semibold'>Contact Information</h1>
                     <h1 className='flex gap-2 items-center text-white'><FaWhatsapp className='text-green-500 text-2xl' /> +8801762587131 </h1>
                     <h1 className='flex gap-2 items-center text-white'><TfiEmail className='text-red-500 text-xl' /> jubayerahmad131@gmail.com </h1>
-                    <Link href={"https://www.linkedin.com/in/jubaer-ahmed-54b457293"} className='flex gap-2 items-center text-white'><CiLinkedin className='text-sky-500 text-3xl' /> https://www.linkedin.com/in/jubaer-ahmed-54b457293</Link>
+                    <Link href={"https://www.linkedin.com/in/jubaer-ahmed-54b457293"} className='flex gap-1 items-center max-sm:items-start text-white'><CiLinkedin className='text-sky-500 text-3xl' /> https://www.linkedin.com/in/jubaer-ahmed-54b457293</Link>
                     <Link href={"https://github.com/jubaer131"} className='flex gap-2 items-center text-white'><FaGithub className=' text-2xl' /> https://github.com/jubaer131 </Link>
                     <h1 className='flex gap-2 items-center text-white'><FaLocationDot className='text-red-500 text-2xl' /> Dhaka, Bangladesh </h1>
 

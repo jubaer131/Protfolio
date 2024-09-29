@@ -27,8 +27,8 @@ const Banner = () => {
                     </h1>
 
                     <h1 className='text-xl text-white font-semibold text-start w-10/12 lg:w-11/12 lg:px-8 flex items-center justify-start gap-2'><TiLocation className='text-green-500 text-2xl' /> From Bangladesh</h1>
-                    <h1 className="text-[18px] text-white lg:text-xl font-normal lg:w-11/12 px-8 leading-none sm:text-4xl lg:text-left">
-                        💻 As a passionate and experienced Frontend Web Developer , I thrive on creating beautiful and interactive web applications that delight users. My journey in web development has been driven by a love for design and a commitment to crafting seamless user experiences.
+                    <h1 className="text-[18px] text-white lg:text-xl font-normal lg:w-11/12 px-8  sm:text-4xl lg:text-left leading-normal">
+                        💻  As a passionate and experienced Frontend Web Developer, I thrive on creating beautiful and interactive web applications that delight users. My journey in web development has been driven by a love for design and a commitment to crafting seamless user experiences.
                     </h1>
 
                     <div className="flex flex-col px-8 space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start lg:w-11/12">
